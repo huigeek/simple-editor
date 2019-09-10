@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tool {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  line-height: 40px;
+  background: #f4f4f4;
+  & > i {
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  .iconActive {
+    background: darken(#f4f4f4, 10%);
+  }
+}
+
+.panel {
+  height: 300px;
+  padding: 10px;
+  &:focus {
+    outline: 0px solid transparent;
+  }
+}
