@@ -1,5 +1,9 @@
 # What is it?
 
+# Notice
+
+a simple editor, just for study, not recommend for your project.
+
 # Installion
 
 ```
