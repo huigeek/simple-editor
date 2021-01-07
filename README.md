@@ -14,3 +14,5 @@ import Editor from 'simple-editor'
 
 Vue.use(Editor)
 ```
+
+![编辑器](editor.png)
